@@ -8,16 +8,14 @@ module.exports = {
       // rinkeby: ETHERSCAN_API_KEY,
       // kovan: ETHERSCAN_API_KEY,
       // polygon: POLYGONSCAN_API_KEY,
-      goerli: "C7M9B1RX5QMQSQZ8W4UMZD6K5QS6DZAW9P",
+      goerli: "",
     },
   },
   networks: {
     hardhat: {},
     goerli: {
       url: "https://goerli.infura.io/v3/08d0a9d1045146dc888e62677f83e772",
-      accounts: [
-        "da72fd15155fcba871c9988affacf312d8e8afbf3fd03b1f32e386242e38e56a",
-      ],
+      accounts: [""],
     },
   },
   gasReporter: {
